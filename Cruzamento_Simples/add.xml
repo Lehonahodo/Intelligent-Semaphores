@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/12/19 13:49:24 by Eclipse SUMO netedit Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\lehonahodo\Dropbox\Academico\USP-POLI\TCC%20-%20Final\Sumo%20Projects\Cruzamento_Simples\Cruz_Net.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\lehonahodo\Dropbox\Academico\USP-POLI\TCC%20-%20Final\Sumo%20Projects\Cruzamento_Simples\Cruz_Net.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e1Detector id="e1Detector_Faixa_5_0_0" lane="Faixa_5_0" pos="50.00" freq="900.00" file="e1Detector_Faixa_5_0_0.xml"/>
+    <e1Detector id="e1Detector_Faixa_5_1_1" lane="Faixa_5_1" pos="50.00" freq="900.00" file="e1Detector_Faixa_5_1_1.xml"/>
+    <e1Detector id="e1Detector_Faixa_5_2_2" lane="Faixa_5_2" pos="50.00" freq="900.00" file="e1Detector_Faixa_5_2_2.xml"/>
+    <e1Detector id="e1Detector_Faixa_7_0_0" lane="Faixa_7_0" pos="50.00" freq="900.00" file="e1Detector_Faixa_7_0_0.xml"/>
+    <e1Detector id="e1Detector_Faixa_7_1_1" lane="Faixa_7_1" pos="50.00" freq="900.00" file="e1Detector_Faixa_7_1_1.xml"/>
+    <e1Detector id="e1Detector_Faixa_7_2_2" lane="Faixa_7_2" pos="50.00" freq="900.00" file="e1Detector_Faixa_7_2_2.xml"/>
+    <e2Detector id="e2Detector_Faixa_1_0_0" length="20.00" lane="Faixa_1_0" pos="65.00" freq="900.00" file="e2Detector_Faixa_1_0_8.xml"/>
+    <e2Detector id="e2Detector_Faixa_1_1_1" length="20.00" lane="Faixa_1_1" pos="65.00" freq="900.00" file="e2Detector_Faixa_1_1_7.xml"/>
+    <e2Detector id="e2Detector_Faixa_1_2_2" length="20.00" lane="Faixa_1_2" pos="65.00" freq="900.00" file="e2Detector_Faixa_1_2_6.xml"/>
+    <e2Detector id="e2Detector_Faixa_3_0_0" length="20.00" lane="Faixa_3_0" pos="65.00" freq="900.00" file="e2Detector_Faixa_3_0_11.xml"/>
+    <e2Detector id="e2Detector_Faixa_3_1_1" length="20.00" lane="Faixa_3_1" pos="65.00" freq="900.00" file="e2Detector_Faixa_3_1_10.xml"/>
+    <e2Detector id="e2Detector_Faixa_3_2_2" length="20.00" lane="Faixa_3_2" pos="65.00" freq="900.00" file="e2Detector_Faixa_3_2_9.xml"/>
+    <e2Detector id="e2Detector_Faixa_5_0_0" length="20.00" lane="Faixa_5_0" pos="65.00" freq="900.00" file="e2Detector_Faixa_5_0_0.xml"/>
+    <e2Detector id="e2Detector_Faixa_5_1_1" length="20.00" lane="Faixa_5_1" pos="65.00" freq="900.00" file="e2Detector_Faixa_5_1_1.xml"/>
+    <e2Detector id="e2Detector_Faixa_5_2_2" length="20.00" lane="Faixa_5_2" pos="65.00" freq="900.00" file="e2Detector_Faixa_5_2_2.xml"/>
+    <e2Detector id="e2Detector_Faixa_7_0_0" length="20.00" lane="Faixa_7_0" pos="65.00" freq="900.00" file="e2Detector_Faixa_7_0_6.xml"/>
+    <e2Detector id="e2Detector_Faixa_7_1_1" length="20.00" lane="Faixa_7_1" pos="65.00" freq="900.00" file="e2Detector_Faixa_7_1_4.xml"/>
+    <e2Detector id="e2Detector_Faixa_7_2_2" length="20.00" lane="Faixa_7_2" pos="65.00" freq="900.00" file="e2Detector_Faixa_7_2_5.xml"/>
+</additional>

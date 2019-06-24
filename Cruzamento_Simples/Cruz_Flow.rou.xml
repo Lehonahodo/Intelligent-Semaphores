@@ -1,0 +1,18 @@
+<flows>
+	<vType id="car2" 
+		vClass="passenger" accel="0.8" decel="4.5" 
+		sigma="0.5" length="5" maxspeed="10" />
+	
+	<vType id="ev2" 
+		vClass="emergency" accel="0.8" decel="4.5" 
+		sigma="0.5" length="5" maxspeed="30" />
+	
+	<flow id="type1" color="1,0,1"  begin="0" end= "2000" period="10" type="car2">
+		<route edges="Faixa_5 Faixa_8"/>
+	</flow>
+
+	<flow id="type2" color="1,1,0"  begin="0" end= "2000" period="10" type="ev2">
+		<route edges="Faixa_7 Faixa_2"/>
+	</flow>
+	
+</flows>

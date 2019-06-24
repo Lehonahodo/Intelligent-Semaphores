@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/24/19 03:51:17 by Eclipse SUMO GUI Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Cruz_Net.net.xml"/>
+        <route-files value="Cruz_Random.rou.xml"/>
+        <additional-files value="add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="2000"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="50901"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="2" depart="2.00" departLane="Faixa_7_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="20.00" arrivalLane="Faixa_2_0" arrivalPos="86.40" arrivalSpeed="12.55" duration="18.00" routeLength="194.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.05" rerouteNo="0" devices="tripinfo_2" vType="DEFAULT_VEHTYPE" speedFactor="0.94" vaporized=""/>
+    <tripinfo id="3" depart="5.00" departLane="Faixa_7_0" departPos="5.10" departSpeed="0.00" departDelay="2.00" arrival="23.00" arrivalLane="Faixa_2_0" arrivalPos="86.40" arrivalSpeed="13.40" duration="18.00" routeLength="194.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.41" rerouteNo="0" devices="tripinfo_3" vType="DEFAULT_VEHTYPE" speedFactor="1.01" vaporized=""/>
+    <tripinfo id="5" depart="8.00" departLane="Faixa_7_0" departPos="5.10" departSpeed="0.00" departDelay="3.00" arrival="27.00" arrivalLane="Faixa_8_0" arrivalPos="86.40" arrivalSpeed="13.45" duration="19.00" routeLength="176.73" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.46" rerouteNo="0" devices="tripinfo_5" vType="DEFAULT_VEHTYPE" speedFactor="1.03" vaporized=""/>
+    <tripinfo id="9" depart="11.00" departLane="Faixa_7_0" departPos="5.10" departSpeed="0.00" departDelay="2.00" arrival="29.00" arrivalLane="Faixa_2_0" arrivalPos="86.40" arrivalSpeed="13.95" duration="18.00" routeLength="194.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.25" rerouteNo="0" devices="tripinfo_9" vType="DEFAULT_VEHTYPE" speedFactor="1.05" vaporized=""/>
+    <tripinfo id="10" depart="10.00" departLane="Faixa_3_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="30.00" arrivalLane="Faixa_6_0" arrivalPos="86.40" arrivalSpeed="11.11" duration="20.00" routeLength="194.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.87" rerouteNo="0" devices="tripinfo_10" vType="DEFAULT_VEHTYPE" speedFactor="0.89" vaporized=""/>
+    <tripinfo id="16" depart="16.00" departLane="Faixa_7_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="35.00" arrivalLane="Faixa_8_0" arrivalPos="86.40" arrivalSpeed="15.07" duration="19.00" routeLength="176.73" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.21" rerouteNo="0" devices="tripinfo_16" vType="DEFAULT_VEHTYPE" speedFactor="1.09" vaporized=""/>
+    <tripinfo id="20" depart="20.00" departLane="Faixa_7_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="38.00" arrivalLane="Faixa_8_0" arrivalPos="86.40" arrivalSpeed="13.58" duration="18.00" routeLength="176.73" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.03" rerouteNo="0" devices="tripinfo_20" vType="DEFAULT_VEHTYPE" speedFactor="1.03" vaporized=""/>
+    <tripinfo id="26" depart="26.00" departLane="Faixa_3_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="45.00" arrivalLane="Faixa_6_0" arrivalPos="86.40" arrivalSpeed="12.10" duration="19.00" routeLength="194.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.15" rerouteNo="0" devices="tripinfo_26" vType="DEFAULT_VEHTYPE" speedFactor="0.93" vaporized=""/>
+    <tripinfo id="29" depart="29.00" departLane="Faixa_7_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="48.00" arrivalLane="Faixa_2_0" arrivalPos="86.40" arrivalSpeed="12.90" duration="19.00" routeLength="194.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.50" rerouteNo="0" devices="tripinfo_29" vType="DEFAULT_VEHTYPE" speedFactor="0.94" vaporized=""/>
+    <tripinfo id="30" depart="30.00" departLane="Faixa_3_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="49.00" arrivalLane="Faixa_6_0" arrivalPos="86.40" arrivalSpeed="12.42" duration="19.00" routeLength="194.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.60" rerouteNo="0" devices="tripinfo_30" vType="DEFAULT_VEHTYPE" speedFactor="0.94" vaporized=""/>
+    <tripinfo id="23" depart="24.00" departLane="Faixa_5_0" departPos="5.10" departSpeed="0.00" departDelay="1.00" arrival="55.00" arrivalLane="Faixa_8_2" arrivalPos="86.40" arrivalSpeed="15.32" duration="31.00" routeLength="194.90" waitingTime="7.00" waitingCount="1" stopTime="0.00" timeLoss="18.14" rerouteNo="0" devices="tripinfo_23" vType="DEFAULT_VEHTYPE" speedFactor="1.12" vaporized=""/>
+    <tripinfo id="4" depart="4.00" departLane="Faixa_5_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="56.00" arrivalLane="Faixa_8_0" arrivalPos="86.40" arrivalSpeed="14.97" duration="52.00" routeLength="194.90" waitingTime="28.00" waitingCount="1" stopTime="0.00" timeLoss="38.54" rerouteNo="0" devices="tripinfo_4" vType="DEFAULT_VEHTYPE" speedFactor="1.08" vaporized=""/>
+    <tripinfo id="0" depart="0.00" departLane="Faixa_1_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="56.00" arrivalLane="Faixa_4_0" arrivalPos="86.40" arrivalSpeed="14.41" duration="56.00" routeLength="194.90" waitingTime="32.00" waitingCount="1" stopTime="0.00" timeLoss="42.65" rerouteNo="0" devices="tripinfo_0" vType="DEFAULT_VEHTYPE" speedFactor="1.06" vaporized=""/>
+    <tripinfo id="24" depart="24.00" departLane="Faixa_1_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="56.00" arrivalLane="Faixa_4_1" arrivalPos="86.40" arrivalSpeed="12.62" duration="32.00" routeLength="194.90" waitingTime="8.00" waitingCount="1" stopTime="0.00" timeLoss="17.73" rerouteNo="0" devices="tripinfo_24" vType="DEFAULT_VEHTYPE" speedFactor="0.99" vaporized=""/>
+    <tripinfo id="12" depart="12.00" departLane="Faixa_5_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="56.00" arrivalLane="Faixa_8_1" arrivalPos="86.40" arrivalSpeed="12.24" duration="44.00" routeLength="194.90" waitingTime="19.00" waitingCount="1" stopTime="0.00" timeLoss="28.60" rerouteNo="0" devices="tripinfo_12" vType="DEFAULT_VEHTYPE" speedFactor="0.94" vaporized=""/>
+    <tripinfo id="27" depart="27.00" departLane="Faixa_1_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="59.00" arrivalLane="Faixa_2_0" arrivalPos="86.40" arrivalSpeed="11.26" duration="32.00" routeLength="176.73" waitingTime="7.00" waitingCount="1" stopTime="0.00" timeLoss="15.78" rerouteNo="0" devices="tripinfo_27" vType="DEFAULT_VEHTYPE" speedFactor="0.88" vaporized=""/>
+    <tripinfo id="6" depart="7.00" departLane="Faixa_5_0" departPos="5.10" departSpeed="0.00" departDelay="1.00" arrival="59.00" arrivalLane="Faixa_6_0" arrivalPos="86.40" arrivalSpeed="11.37" duration="52.00" routeLength="176.73" waitingTime="27.00" waitingCount="1" stopTime="0.00" timeLoss="35.34" rerouteNo="0" devices="tripinfo_6" vType="DEFAULT_VEHTYPE" speedFactor="0.83" vaporized=""/>
+    <tripinfo id="15" depart="15.00" departLane="Faixa_5_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="62.00" arrivalLane="Faixa_6_0" arrivalPos="86.40" arrivalSpeed="10.86" duration="47.00" routeLength="176.73" waitingTime="21.00" waitingCount="1" stopTime="0.00" timeLoss="30.39" rerouteNo="0" devices="tripinfo_15" vType="DEFAULT_VEHTYPE" speedFactor="0.86" vaporized=""/>
+    <tripinfo id="21" depart="21.00" departLane="Faixa_5_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="63.00" arrivalLane="Faixa_6_0" arrivalPos="86.40" arrivalSpeed="13.76" duration="42.00" routeLength="176.73" waitingTime="16.00" waitingCount="1" stopTime="0.00" timeLoss="29.33" rerouteNo="0" devices="tripinfo_21" vType="DEFAULT_VEHTYPE" speedFactor="1.05" vaporized=""/>
+    <tripinfo id="46" depart="46.00" departLane="Faixa_1_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="64.00" arrivalLane="Faixa_4_0" arrivalPos="86.40" arrivalSpeed="13.38" duration="18.00" routeLength="194.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.38" rerouteNo="0" devices="tripinfo_46" vType="DEFAULT_VEHTYPE" speedFactor="0.98" vaporized=""/>
+    <tripinfo id="44" depart="44.00" departLane="Faixa_5_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="64.00" arrivalLane="Faixa_8_1" arrivalPos="86.40" arrivalSpeed="13.12" duration="20.00" routeLength="194.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.58" rerouteNo="0" devices="tripinfo_44" vType="DEFAULT_VEHTYPE" speedFactor="1.02" vaporized=""/>
+    <tripinfo id="48" depart="49.00" departLane="Faixa_1_0" departPos="5.10" departSpeed="0.00" departDelay="1.00" arrival="69.00" arrivalLane="Faixa_2_0" arrivalPos="86.40" arrivalSpeed="11.56" duration="20.00" routeLength="176.73" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.21" rerouteNo="0" devices="tripinfo_48" vType="DEFAULT_VEHTYPE" speedFactor="0.89" vaporized=""/>
+    <tripinfo id="49" depart="52.00" departLane="Faixa_1_0" departPos="5.10" departSpeed="0.00" departDelay="3.00" arrival="73.00" arrivalLane="Faixa_4_0" arrivalPos="86.40" arrivalSpeed="10.85" duration="21.00" routeLength="194.90" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="3.79" rerouteNo="0" devices="tripinfo_49" vType="DEFAULT_VEHTYPE" speedFactor="0.83" vaporized=""/>
+    <tripinfo id="35" depart="35.00" departLane="Faixa_3_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="100.00" arrivalLane="Faixa_4_0" arrivalPos="86.40" arrivalSpeed="15.05" duration="65.00" routeLength="176.73" waitingTime="43.00" waitingCount="1" stopTime="0.00" timeLoss="52.46" rerouteNo="0" devices="tripinfo_35" vType="DEFAULT_VEHTYPE" speedFactor="1.16" vaporized=""/>
+    <tripinfo id="45" depart="45.00" departLane="Faixa_7_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="101.00" arrivalLane="Faixa_2_0" arrivalPos="86.40" arrivalSpeed="13.64" duration="56.00" routeLength="194.90" waitingTime="32.00" waitingCount="1" stopTime="0.00" timeLoss="41.64" rerouteNo="0" devices="tripinfo_45" vType="DEFAULT_VEHTYPE" speedFactor="1.01" vaporized=""/>
+</tripinfos>

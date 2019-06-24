@@ -1,0 +1,13 @@
+<configuration>
+	<input>
+		<net-file value="Cruz_Net.net.xml"/>
+        <!--<route-files value="Cruz_Vehiculos.rou.xml, Cruz_Flow.rou.xml, Cruz_Random.rou.xml"/>--> 
+		<route-files value="Cruz_Random.rou.xml"/>
+		<additional-files value="add.xml"/>
+	</input>
+
+	<time>
+		<begin value="0"/>
+		<end value="2000"/>
+	</time>
+</configuration>

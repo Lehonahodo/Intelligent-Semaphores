@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 05/27/19 15:57:51 by Eclipse SUMO netedit Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\lehonahodo\Dropbox\Academico\USP-POLI\TCC%20-%20Final\Sumo%20Projects\Cruzamento_Simples\Cruz_Net.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\lehonahodo\Dropbox\Academico\USP-POLI\TCC%20-%20Final\Sumo%20Projects\Cruzamento_Simples\Cruz_Net.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<net version="1.1" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-100.00,-100.00,183.71,715.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id=":Inter_0" function="internal">
+        <lane id=":Inter_0_0" index="0" speed="6.51" length="9.03" shape="-8.00,13.60 -8.35,11.15 -9.40,9.40 -11.15,8.35 -13.60,8.00"/>
+    </edge>
+    <edge id=":Inter_1" function="internal">
+        <lane id=":Inter_1_0" index="0" speed="13.89" length="27.20" shape="-8.00,13.60 -8.00,-13.60"/>
+        <lane id=":Inter_1_1" index="1" speed="13.89" length="27.20" shape="-4.80,13.60 -4.80,-13.60"/>
+        <lane id=":Inter_1_2" index="2" speed="13.89" length="27.20" shape="-1.60,13.60 -1.60,-13.60"/>
+    </edge>
+    <edge id=":Inter_4" function="internal">
+        <lane id=":Inter_4_0" index="0" speed="6.51" length="9.03" shape="13.60,8.00 11.15,8.35 9.40,9.40 8.35,11.15 8.00,13.60"/>
+    </edge>
+    <edge id=":Inter_5" function="internal">
+        <lane id=":Inter_5_0" index="0" speed="13.89" length="27.20" shape="13.60,8.00 -13.60,8.00"/>
+        <lane id=":Inter_5_1" index="1" speed="13.89" length="27.20" shape="13.60,4.80 -13.60,4.80"/>
+        <lane id=":Inter_5_2" index="2" speed="13.89" length="27.20" shape="13.60,1.60 -13.60,1.60"/>
+    </edge>
+    <edge id=":Inter_8" function="internal">
+        <lane id=":Inter_8_0" index="0" speed="6.51" length="9.03" shape="8.00,-13.60 8.35,-11.15 9.40,-9.40 11.15,-8.35 13.60,-8.00"/>
+    </edge>
+    <edge id=":Inter_9" function="internal">
+        <lane id=":Inter_9_0" index="0" speed="13.89" length="27.20" shape="8.00,-13.60 8.00,13.60"/>
+        <lane id=":Inter_9_1" index="1" speed="13.89" length="27.20" shape="4.80,-13.60 4.80,13.60"/>
+        <lane id=":Inter_9_2" index="2" speed="13.89" length="27.20" shape="1.60,-13.60 1.60,13.60"/>
+    </edge>
+    <edge id=":Inter_12" function="internal">
+        <lane id=":Inter_12_0" index="0" speed="6.51" length="9.03" shape="-13.60,-8.00 -11.15,-8.35 -9.40,-9.40 -8.35,-11.15 -8.00,-13.60"/>
+    </edge>
+    <edge id=":Inter_13" function="internal">
+        <lane id=":Inter_13_0" index="0" speed="13.89" length="27.20" shape="-13.60,-8.00 13.60,-8.00"/>
+        <lane id=":Inter_13_1" index="1" speed="13.89" length="27.20" shape="-13.60,-4.80 13.60,-4.80"/>
+        <lane id=":Inter_13_2" index="2" speed="13.89" length="27.20" shape="-13.60,-1.60 13.60,-1.60"/>
+    </edge>
+
+    <edge id="Faixa_1" from="A" to="Inter" priority="-1">
+        <lane id="Faixa_1_0" index="0" speed="13.89" length="86.40" shape="-100.00,-8.00 -13.60,-8.00"/>
+        <lane id="Faixa_1_1" index="1" speed="13.89" length="86.40" shape="-100.00,-4.80 -13.60,-4.80"/>
+        <lane id="Faixa_1_2" index="2" speed="13.89" length="86.40" shape="-100.00,-1.60 -13.60,-1.60"/>
+    </edge>
+    <edge id="Faixa_2" from="Inter" to="B" priority="-1">
+        <lane id="Faixa_2_0" index="0" speed="13.89" length="86.40" shape="-8.00,-13.60 -8.00,-100.00"/>
+        <lane id="Faixa_2_1" index="1" speed="13.89" length="86.40" shape="-4.80,-13.60 -4.80,-100.00"/>
+        <lane id="Faixa_2_2" index="2" speed="13.89" length="86.40" shape="-1.60,-13.60 -1.60,-100.00"/>
+    </edge>
+    <edge id="Faixa_3" from="B" to="Inter" priority="-1">
+        <lane id="Faixa_3_0" index="0" speed="13.89" length="86.40" shape="8.00,-100.00 8.00,-13.60"/>
+        <lane id="Faixa_3_1" index="1" speed="13.89" length="86.40" shape="4.80,-100.00 4.80,-13.60"/>
+        <lane id="Faixa_3_2" index="2" speed="13.89" length="86.40" shape="1.60,-100.00 1.60,-13.60"/>
+    </edge>
+    <edge id="Faixa_4" from="Inter" to="C" priority="-1">
+        <lane id="Faixa_4_0" index="0" speed="13.89" length="86.40" shape="13.60,-8.00 100.00,-8.00"/>
+        <lane id="Faixa_4_1" index="1" speed="13.89" length="86.40" shape="13.60,-4.80 100.00,-4.80"/>
+        <lane id="Faixa_4_2" index="2" speed="13.89" length="86.40" shape="13.60,-1.60 100.00,-1.60"/>
+    </edge>
+    <edge id="Faixa_5" from="C" to="Inter" priority="-1">
+        <lane id="Faixa_5_0" index="0" speed="13.89" length="86.40" shape="100.00,8.00 13.60,8.00"/>
+        <lane id="Faixa_5_1" index="1" speed="13.89" length="86.40" shape="100.00,4.80 13.60,4.80"/>
+        <lane id="Faixa_5_2" index="2" speed="13.89" length="86.40" shape="100.00,1.60 13.60,1.60"/>
+    </edge>
+    <edge id="Faixa_6" from="Inter" to="D" priority="-1">
+        <lane id="Faixa_6_0" index="0" speed="13.89" length="86.40" shape="8.00,13.60 8.00,100.00"/>
+        <lane id="Faixa_6_1" index="1" speed="13.89" length="86.40" shape="4.80,13.60 4.80,100.00"/>
+        <lane id="Faixa_6_2" index="2" speed="13.89" length="86.40" shape="1.60,13.60 1.60,100.00"/>
+    </edge>
+    <edge id="Faixa_7" from="D" to="Inter" priority="-1">
+        <lane id="Faixa_7_0" index="0" speed="13.89" length="86.40" shape="-8.00,100.00 -8.00,13.60"/>
+        <lane id="Faixa_7_1" index="1" speed="13.89" length="86.40" shape="-4.80,100.00 -4.80,13.60"/>
+        <lane id="Faixa_7_2" index="2" speed="13.89" length="86.40" shape="-1.60,100.00 -1.60,13.60"/>
+    </edge>
+    <edge id="Faixa_8" from="Inter" to="A" priority="-1">
+        <lane id="Faixa_8_0" index="0" speed="13.89" length="86.40" shape="-13.60,8.00 -100.00,8.00"/>
+        <lane id="Faixa_8_1" index="1" speed="13.89" length="86.40" shape="-13.60,4.80 -100.00,4.80"/>
+        <lane id="Faixa_8_2" index="2" speed="13.89" length="86.40" shape="-13.60,1.60 -100.00,1.60"/>
+    </edge>
+
+    <tlLogic id="Inter" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGGGrrrrGGGGgrrrr"/>
+        <phase duration="3"  state="yyyyrrrryyyyyrrrr"/>
+        <phase duration="42" state="rrrrGGGGrrrrrGGGG"/>
+        <phase duration="3"  state="rrrryyyyrrrrryyyy"/>
+    </tlLogic>
+
+    <junction id="A" type="dead_end" x="-100.00" y="0.00" incLanes="Faixa_8_0 Faixa_8_1 Faixa_8_2" intLanes="" shape="-100.00,0.00 -100.00,9.60 -100.00,0.00"/>
+    <junction id="B" type="dead_end" x="0.00" y="-100.00" incLanes="Faixa_2_0 Faixa_2_1 Faixa_2_2" intLanes="" shape="0.00,-100.00 -9.60,-100.00 0.00,-100.00"/>
+    <junction id="C" type="dead_end" x="100.00" y="0.00" incLanes="Faixa_4_0 Faixa_4_1 Faixa_4_2" intLanes="" shape="100.00,0.00 100.00,-9.60 100.00,0.00"/>
+    <junction id="D" type="dead_end" x="0.00" y="100.00" incLanes="Faixa_6_0 Faixa_6_1 Faixa_6_2" intLanes="" shape="0.00,100.00 9.60,100.00 0.00,100.00"/>
+    <junction id="Inter" type="traffic_light" x="0.00" y="0.00" incLanes="Faixa_7_0 Faixa_7_1 Faixa_7_2 Faixa_5_0 Faixa_5_1 Faixa_5_2 Faixa_3_0 Faixa_3_1 Faixa_3_2 Faixa_1_0 Faixa_1_1 Faixa_1_2" intLanes=":Inter_0_0 :Inter_1_0 :Inter_1_1 :Inter_1_2 :Inter_4_0 :Inter_5_0 :Inter_5_1 :Inter_5_2 :Inter_8_0 :Inter_9_0 :Inter_9_1 :Inter_9_2 :Inter_12_0 :Inter_13_0 :Inter_13_1 :Inter_13_2" shape="-9.60,13.60 9.60,13.60 10.04,11.38 10.60,10.60 11.38,10.04 12.38,9.71 13.60,9.60 13.60,-9.60 11.38,-10.04 10.60,-10.60 10.04,-11.38 9.71,-12.38 9.60,-13.60 -9.60,-13.60 -10.04,-11.38 -10.60,-10.60 -11.38,-10.04 -12.38,-9.71 -13.60,-9.60 -13.60,9.60 -11.38,10.04 -10.60,10.60 -10.04,11.38 -9.71,12.38">
+        <request index="0"  response="0000000000000000" foes="0000000011100000" cont="0"/>
+        <request index="1"  response="0000000000000000" foes="1111000011100000" cont="0"/>
+        <request index="2"  response="0000000000000000" foes="1111000011100000" cont="0"/>
+        <request index="3"  response="0000000000000000" foes="1111000011100000" cont="0"/>
+        <request index="4"  response="0000111000000000" foes="0000111000000000" cont="0"/>
+        <request index="5"  response="0000111000001111" foes="0000111000001111" cont="0"/>
+        <request index="6"  response="0000111000001111" foes="0000111000001111" cont="0"/>
+        <request index="7"  response="0000111000001111" foes="0000111000001111" cont="0"/>
+        <request index="8"  response="0000000000000000" foes="1110000000000000" cont="0"/>
+        <request index="9"  response="0000000000000000" foes="1110000011110000" cont="0"/>
+        <request index="10" response="0000000000000000" foes="1110000011110000" cont="0"/>
+        <request index="11" response="0000000000000000" foes="1110000011110000" cont="0"/>
+        <request index="12" response="0000000000001110" foes="0000000000001110" cont="0"/>
+        <request index="13" response="0000111100001110" foes="0000111100001110" cont="0"/>
+        <request index="14" response="0000111100001110" foes="0000111100001110" cont="0"/>
+        <request index="15" response="0000111100001110" foes="0000111100001110" cont="0"/>
+    </junction>
+    <junction id="gneJ3" type="dead_end" x="183.71" y="715.00" incLanes="" intLanes="" shape="183.71,715.00"/>
+
+    <connection from="Faixa_1" to="Faixa_2" fromLane="0" toLane="0" via=":Inter_12_0" tl="Inter" linkIndex="13" dir="r" state="o"/>
+    <connection from="Faixa_1" to="Faixa_4" fromLane="0" toLane="0" via=":Inter_13_0" tl="Inter" linkIndex="14" dir="s" state="o"/>
+    <connection from="Faixa_1" to="Faixa_4" fromLane="1" toLane="1" via=":Inter_13_1" tl="Inter" linkIndex="15" dir="s" state="o"/>
+    <connection from="Faixa_1" to="Faixa_4" fromLane="2" toLane="2" via=":Inter_13_2" tl="Inter" linkIndex="16" dir="s" state="o"/>
+    <connection from="Faixa_3" to="Faixa_4" fromLane="0" toLane="0" via=":Inter_8_0" tl="Inter" linkIndex="8" dir="r" state="O"/>
+    <connection from="Faixa_3" to="Faixa_6" fromLane="0" toLane="0" via=":Inter_9_0" tl="Inter" linkIndex="9" dir="s" state="O"/>
+    <connection from="Faixa_3" to="Faixa_6" fromLane="1" toLane="1" via=":Inter_9_1" tl="Inter" linkIndex="10" dir="s" state="O"/>
+    <connection from="Faixa_3" to="Faixa_6" fromLane="2" toLane="2" via=":Inter_9_2" tl="Inter" linkIndex="11" dir="s" state="O"/>
+    <connection from="Faixa_5" to="Faixa_6" fromLane="0" toLane="0" via=":Inter_4_0" tl="Inter" linkIndex="4" dir="r" state="o"/>
+    <connection from="Faixa_5" to="Faixa_8" fromLane="0" toLane="0" via=":Inter_5_0" tl="Inter" linkIndex="5" dir="s" state="o"/>
+    <connection from="Faixa_5" to="Faixa_8" fromLane="1" toLane="1" via=":Inter_5_1" tl="Inter" linkIndex="6" dir="s" state="o"/>
+    <connection from="Faixa_5" to="Faixa_8" fromLane="2" toLane="2" via=":Inter_5_2" tl="Inter" linkIndex="7" dir="s" state="o"/>
+    <connection from="Faixa_7" to="Faixa_8" fromLane="0" toLane="0" via=":Inter_0_0" tl="Inter" linkIndex="0" dir="r" state="O"/>
+    <connection from="Faixa_7" to="Faixa_2" fromLane="0" toLane="0" via=":Inter_1_0" tl="Inter" linkIndex="1" dir="s" state="O"/>
+    <connection from="Faixa_7" to="Faixa_2" fromLane="1" toLane="1" via=":Inter_1_1" tl="Inter" linkIndex="2" dir="s" state="O"/>
+    <connection from="Faixa_7" to="Faixa_2" fromLane="2" toLane="2" via=":Inter_1_2" tl="Inter" linkIndex="3" dir="s" state="O"/>
+
+    <connection from=":Inter_0" to="Faixa_8" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":Inter_1" to="Faixa_2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":Inter_1" to="Faixa_2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":Inter_1" to="Faixa_2" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":Inter_4" to="Faixa_6" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":Inter_5" to="Faixa_8" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":Inter_5" to="Faixa_8" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":Inter_5" to="Faixa_8" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":Inter_8" to="Faixa_4" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":Inter_9" to="Faixa_6" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":Inter_9" to="Faixa_6" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":Inter_9" to="Faixa_6" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":Inter_12" to="Faixa_2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":Inter_13" to="Faixa_4" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":Inter_13" to="Faixa_4" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":Inter_13" to="Faixa_4" fromLane="2" toLane="2" dir="s" state="M"/>
+
+</net>
